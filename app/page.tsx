@@ -1,3 +1,5 @@
+"use client"
+
 import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
 import ServicesSection from "@/components/services-section"
@@ -8,8 +10,26 @@ import Navbar from "@/components/navbar"
 import ProcessSection from "@/components/process-section"
 import ParallaxDivider from "@/components/parallax-divider"
 import SimpleBlogSection from "@/components/simple-blog-section"
+import { useEffect } from "react"
 
 export default function Home() {
+  useEffect(() => {
+    // Check if there's a hash in the URL
+    if (window.location.hash) {
+      // Get the element ID from the hash
+      const id = window.location.hash.substring(1)
+      const element = document.getElementById(id)
+
+      // If the element exists, scroll to it after a short delay
+      // The delay ensures the page is fully loaded before scrolling
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" })
+        }, 500)
+      }
+    }
+  }, [])
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-background/90 text-foreground overflow-hidden">
       <Navbar />

@@ -20,9 +20,18 @@ export default function Navbar() {
   }, [])
 
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
+    // Check if we're on a blog page or other page that's not the home page
+    const isHomePage = window.location.pathname === "/"
+
+    if (isHomePage) {
+      // If we're already on the home page, just scroll to the section
+      const element = document.getElementById(id)
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" })
+      }
+    } else {
+      // If we're on another page, navigate to home page with the section as hash
+      window.location.href = `/#${id}`
     }
   }
 
