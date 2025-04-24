@@ -25,8 +25,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
-              Experience exquisite design and impeccable quality for all your printing
-              needs. Elevating brands through premium print solutions since 1989.
+              Experience exquisite design and impeccable quality for all your printing needs. Elevating brands through
+              premium print solutions since 1989.
             </p>
 
             <div className="flex space-x-4">
@@ -59,6 +59,39 @@ export default function Footer() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
             </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <h3 className="text-lg font-semibold mb-4 relative inline-block">
+              Quick Links
+              <span className="absolute -bottom-1 left-0 w-12 h-0.5 bg-gold"></span>
+            </h3>
+            <ul className="space-y-3 text-gray-300">
+              <li>
+                <Link href="/#about" className="hover:text-gold transition-colors">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/#services" className="hover:text-gold transition-colors">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/#testimonials" className="hover:text-gold transition-colors">
+                  Testimonials
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-gold transition-colors">
+                  Blog
+                </Link>
+              </li>
+            </ul>
           </motion.div>
 
           <motion.div

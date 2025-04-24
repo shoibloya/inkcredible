@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/button"
 import { Menu } from "lucide-react"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
+import { useRouter } from "next/navigation"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const router = useRouter()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,6 +35,10 @@ export default function Navbar() {
       // If we're on another page, navigate to home page with the section as hash
       window.location.href = `/#${id}`
     }
+  }
+
+  const navigateToBlog = () => {
+    router.push("/blog")
   }
 
   return (
@@ -70,7 +76,7 @@ export default function Navbar() {
               Testimonials
             </button>
             <button
-              onClick={() => scrollToSection("blog")}
+              onClick={navigateToBlog}
               className="text-foreground/90 hover:text-gold transition-colors duration-300"
             >
               Blog
@@ -109,7 +115,7 @@ export default function Navbar() {
                 Testimonials
               </button>
               <button
-                onClick={() => scrollToSection("blog")}
+                onClick={navigateToBlog}
                 className="text-foreground hover:text-gold transition-colors py-2 text-left"
               >
                 Blog

@@ -9,7 +9,6 @@ import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
 import ProcessSection from "@/components/process-section"
 import ParallaxDivider from "@/components/parallax-divider"
-import SimpleBlogSection from "@/components/simple-blog-section"
 import { useEffect } from "react"
 
 export default function Home() {
@@ -42,7 +41,6 @@ export default function Home() {
         <TestimonialsSection />
         <ParallaxDivider reversed />
         <ContactSection />
-        <SimpleBlogSection />
       </main>
       <Footer />
     </div>
