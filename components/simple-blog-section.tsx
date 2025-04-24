@@ -16,21 +16,23 @@ export default function SimpleBlogSection() {
 
         <div className="max-w-4xl mx-auto bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
           <div className="relative w-full h-64 md:h-80">
-            <Image src="/blog-one.png" alt="Business card paper types" fill className="object-cover" />
+            <Image src="/blog-two.png" alt="Business card essentials 2025" fill className="object-cover" />
           </div>
           <div className="p-8 md:p-10">
             <h3 className="text-2xl md:text-3xl font-bold font-serif mb-4">
-              Business Card Paper Types in Singapore: A Complete Guide
+              What to Include on a Business Card in 2025 (Singapore Edition)
             </h3>
-            <p className="text-sm text-gold mb-4">April 21, 2023</p>
+            <p className="text-sm text-gold mb-4">May 15, 2023</p>
             <p className="text-gray-300 mb-6">
-              Selecting the right paper for your business card is a crucial decision that can significantly affect how
-              your brand is received in Singapore's highly competitive business culture. From thickness and texture to
-              finish and durability, every aspect of your business card material speaks volumes about your company's
-              values and attention to detail.
+              In the quick-paced business climate of Singapore, the humble business card still plays a significant part
+              despite our increasingly expanding digital age. As we continue into 2025, these little marketing miracles
+              continue to be important touchstones in Singapore's relationship-oriented business culture.
             </p>
             <div className="flex justify-end">
-              <a href="/blog/business-card-paper-types" className="inline-flex items-center text-gold hover:underline">
+              <a
+                href="/blog/business-card-essentials-2025"
+                className="inline-flex items-center text-gold hover:underline"
+              >
                 Read Full Article →
               </a>
             </div>

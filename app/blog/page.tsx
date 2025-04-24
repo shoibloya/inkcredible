@@ -19,6 +19,30 @@ export default function BlogPage() {
           <div className="max-w-4xl mx-auto space-y-10">
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
+                <Image src="/blog-two.png" alt="Business card essentials 2025" fill className="object-cover" />
+              </div>
+              <div className="p-8 md:p-10">
+                <h2 className="text-2xl md:text-3xl font-bold font-serif mb-4">
+                  What to Include on a Business Card in 2025 (Singapore Edition)
+                </h2>
+                <p className="text-sm text-gold mb-4">May 15, 2023</p>
+                <p className="text-gray-300 mb-6">
+                  In the quick-paced business climate of Singapore, the humble business card still plays a significant
+                  part despite our increasingly expanding digital age.
+                </p>
+                <div className="flex justify-end">
+                  <a
+                    href="/blog/business-card-essentials-2025"
+                    className="inline-flex items-center text-gold hover:underline"
+                  >
+                    Read Full Article →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-64 md:h-80">
                 <Image src="/blog-one.png" alt="Business card paper types" fill className="object-cover" />
               </div>
               <div className="p-8 md:p-10">
