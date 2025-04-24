@@ -37,40 +37,19 @@ export default function BusinessCardPaperTypesPage() {
                 <p className="mb-4">
                   The paper you choose for your business card has a direct influence on how recipients react to your
                   brand before they even glance at the details. Your business card communicates who you are in just a
-                  few inches of paper, often serving as the first physical impression you make on professional contacts{" "}
-                  <a
-                    href="https://www.shopify.com/sg/blog/best-paper-for-business-cards"
-                    className="text-gold hover:underline"
-                  >
-                    [1]
-                  </a>
-                  . This small but powerful marketing tool must convey something about your business professionalism and
+                  few inches of paper, often serving as the first physical impression you make on professional contacts{" "}. This small but powerful marketing tool must convey something about your business professionalism and
                   values.
                 </p>
                 <p className="mb-4">
                   Flimsy, thin cards are prone to crumpling or tearing easily in a potential customer's wallet,
-                  immediately sending the wrong message about your business's attention to quality and detail{" "}
-                  <a
-                    href="https://www.shopify.com/sg/blog/best-paper-for-business-cards"
-                    className="text-gold hover:underline"
-                  >
-                    [1]
-                  </a>
-                  . On the other hand, a sturdy, well-designed card sends messages of stability and dependability. Your
+                  immediately sending the wrong message about your business's attention to quality and detail{" "}. On the other hand, a sturdy, well-designed card sends messages of stability and dependability. Your
                   card's tactile and weighty properties create a sensory experience that will leave a lasting
                   impression—either sleek sophistication from a matte-finish smoothness or eye-catching luxury from a
                   textured paper.
                 </p>
                 <p className="mb-8">
                   Since a business card provides recipients with their first impression of your brand, it is imperative
-                  that it really reflects your brand personality and image{" "}
-                  <a
-                    href="https://www.shopify.com/sg/blog/business-card-dimensions"
-                    className="text-gold hover:underline"
-                  >
-                    [4]
-                  </a>
-                  . Within a networking-high business culture such as Singapore's, your card will pass from hand to
+                  that it really reflects your brand personality and image{" "}. Within a networking-high business culture such as Singapore's, your card will pass from hand to
                   hand, and durability and quality take precedence. Good-quality cards have a greater opportunity to be
                   kept and remembered, advancing your brand further and longer.
                 </p>
