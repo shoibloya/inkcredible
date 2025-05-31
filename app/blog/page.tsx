@@ -104,7 +104,7 @@ export default function BlogPage() {
                 </p>
                 <div className="flex justify-end">
                   <a
-                    href="/blog/qr-code-business-cards-singapore"
+                    href="/blog/qr-code-integration-business-card"
                     className="inline-flex items-center text-gold hover:underline"
                   >
                     Read Full Article →
