@@ -64,6 +64,54 @@ export default function BlogPage() {
                 </div>
               </div>
             </div>
+
+            <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-64 md:h-80">
+                <Image src="/blog-three.png" alt="High-quality print materials Singapore" fill className="object-cover" />
+              </div>
+              <div className="p-8 md:p-10">
+                <h2 className="text-2xl md:text-3xl font-bold font-serif mb-4">
+                  The Strategic Power of High-Quality Print Materials in Singapore’s Competitive Market
+                </h2>
+                <p className="text-sm text-gold mb-4">May 31, 2025</p>
+                <p className="text-gray-300 mb-6">
+                  In Singapore’s hyperconnected business landscape—where digital ads dominate—premium print remains a
+                  silent powerhouse.
+                </p>
+                <div className="flex justify-end">
+                  <a
+                    href="/blog/strategic-print-materials-singapore"
+                    className="inline-flex items-center text-gold hover:underline"
+                  >
+                    Read Full Article →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-64 md:h-80">
+                <Image src="/blog-four.png" alt="QR code business card integration" fill className="object-cover" />
+              </div>
+              <div className="p-8 md:p-10">
+                <h2 className="text-2xl md:text-3xl font-bold font-serif mb-4">
+                  Bridging Physical and Digital: Successful QR Code Integration with Premium Business Cards in Singapore
+                </h2>
+                <p className="text-sm text-gold mb-4">May 31, 2025</p>
+                <p className="text-gray-300 mb-6">
+                  Premium QR business cards are redefining networking in Singapore by merging tactile elegance with
+                  smart digital functionality.
+                </p>
+                <div className="flex justify-end">
+                  <a
+                    href="/blog/qr-code-business-cards-singapore"
+                    className="inline-flex items-center text-gold hover:underline"
+                  >
+                    Read Full Article →
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
