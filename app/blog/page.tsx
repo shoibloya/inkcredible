@@ -80,7 +80,7 @@ export default function BlogPage() {
                 </p>
                 <div className="flex justify-end">
                   <a
-                    href="/blog/strategic-print-materials-singapore"
+                    href="/blog/high-quality-business-card-print-material"
                     className="inline-flex items-center text-gold hover:underline"
                   >
                     Read Full Article →
