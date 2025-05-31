@@ -42,7 +42,7 @@ export default function StrategicPrintPowerPage() {
                 </p>
 
                 <div className="relative w-full h-64 md:h-80 my-10 rounded-lg overflow-hidden">
-                  <Image src="/blog-thee-one.png" alt="The psychology of print marketing" fill className="object-cover" />
+                  <Image src="/blog-three-one.png" alt="The psychology of print marketing" fill className="object-cover" />
                 </div>
 
                 <h2>The Psychology of Print: Why Tangibility Wins Trust</h2>
@@ -71,7 +71,7 @@ export default function StrategicPrintPowerPage() {
                 </p>
 
                 <div className="relative w-full h-64 md:h-80 my-10 rounded-lg overflow-hidden">
-                  <Image src="/blog-thee-two.png" alt="Print and digital synergy in Singapore" fill className="object-cover" />
+                  <Image src="/blog-three-two.png" alt="Print and digital synergy in Singapore" fill className="object-cover" />
                 </div>
 
                 <h2>Print & Digital Synergy: The Omnichannel Advantage</h2>
@@ -118,7 +118,7 @@ export default function StrategicPrintPowerPage() {
                 </p>
 
                 <div className="relative w-full h-64 md:h-80 my-10 rounded-lg overflow-hidden">
-                  <Image src="/blog-thee-three.png" alt="Data-driven ROI of print in Singapore" fill className="object-cover" />
+                  <Image src="/blog-three-three.png" alt="Data-driven ROI of print in Singapore" fill className="object-cover" />
                 </div>
 
                 <h2>The ROI of Premium Print: Data-Driven Decisions</h2>
@@ -143,7 +143,7 @@ export default function StrategicPrintPowerPage() {
                 </p>
 
                 <div className="relative w-full h-64 md:h-80 my-10 rounded-lg overflow-hidden">
-                  <Image src="/blog-thee-four.png" alt="Future trends in Singapore print industry" fill className="object-cover" />
+                  <Image src="/blog-three-four.png" alt="Future trends in Singapore print industry" fill className="object-cover" />
                 </div>
 
                 <h2>Future Trends Shaping Singapore’s Print Landscape</h2>
