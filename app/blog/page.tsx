@@ -16,6 +16,37 @@ export default function BlogPage() {
             <p className="text-lg text-muted-foreground">Insights and expertise from our printing professionals</p>
           </div>
 
+                    <div className="max-w-4xl mx-auto space-y-10">
+            {/* NEW: Business-Card Designs article */}
+            <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-64 md:h-80">
+                <Image
+                  src="/blog-five.png"
+                  alt="Business card design trends Singapore 2025"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-8 md:p-10">
+                <h2 className="text-2xl md:text-3xl font-bold font-serif mb-4">
+                  7 Modern Business-Card Designs to Elevate Your Brand in Singapore (2025 Edition)
+                </h2>
+                <p className="text-sm text-gold mb-4">June 11, 2025</p>
+                <p className="text-gray-300 mb-6">
+                  From minimalist typography to bold textured stocks, explore the design trends that will make your
+                  business card stand out in Singapore’s competitive market.
+                </p>
+                <div className="flex justify-end">
+                  <a
+                    href="/blog/business-card-designs-in-singapore"
+                    className="inline-flex items-center text-gold hover:underline"
+                  >
+                    Read Full Article →
+                  </a>
+                </div>
+              </div>
+            </div>
+          
           <div className="max-w-4xl mx-auto space-y-10">
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
