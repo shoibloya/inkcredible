@@ -38,7 +38,7 @@ export default function BusinessCardDesignsPage() {
                 Business Card Designs in Singapore: Finance vs&nbsp;Creative —
                 Your Complete Strategy Guide
               </h1>
-              <p className="text-sm text-gold mb-8">July&nbsp;1,&nbsp;2025</p>
+              <p className="text-sm text-gold mb-8">June&nbsp;11,&nbsp;2025</p>
 
               {/* ───────────── Body copy ───────────── */}
               <div className="prose prose-invert max-w-none prose-headings:font-serif prose-headings:text-white prose-headings:font-bold prose-p:text-gray-300 prose-strong:text-gold prose-strong:font-medium prose-li:text-gray-300">

@@ -28,7 +28,7 @@ export default function PremiumBusinessCardPrintingPage() {
               <h1 className="text-4xl md:text-5xl font-bold font-serif mb-6">
                 How to Fix Common Printing Issues with Premium Business Card Printing
               </h1>
-              <p className="text-sm text-gold mb-8">July&nbsp;1,&nbsp;2025</p>
+              <p className="text-sm text-gold mb-8">June&nbsp;18,&nbsp;2025</p>
 
               {/* ───────────────────────── Body Copy ───────────────────────── */}
               <div className="prose prose-invert max-w-none prose-headings:font-serif prose-headings:text-white prose-headings:font-bold prose-p:text-gray-300 prose-strong:text-gold prose-strong:font-medium prose-li:text-gray-300">

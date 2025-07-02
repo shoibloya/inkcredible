@@ -21,6 +21,37 @@ export default function BlogPage() {
           {/* Blog cards */}
           <div className="max-w-4xl mx-auto space-y-10">
 
+            {/* NEW POST — Networking Effectiveness */}
+            <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
+              <div className="relative w-full h-64 md:h-80">
+                <Image
+                  src="/blog-seven.png"
+                  alt="Premium vs digital business cards Singapore"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-8 md:p-10">
+                <h2 className="text-2xl md:text-3xl font-bold font-serif mb-4">
+                  Business Networking Effectiveness: Premium&nbsp;vs&nbsp;Digital Cards&nbsp;Singapore
+                </h2>
+                <p className="text-sm text-gold mb-4">June 25, 2025</p>
+                <p className="text-gray-300 mb-6">
+                  Discover when to deploy luxury printed cards or NFC-enabled
+                  digital cards to maximise your networking ROI in Singapore’s
+                  competitive business landscape.
+                </p>
+                <div className="flex justify-end">
+                  <a
+                    href="/blog/business-networking-effectiveness"
+                    className="inline-flex items-center text-gold hover:underline"
+                  >
+                    Read Full Article →
+                  </a>
+                </div>
+              </div>
+            </div>
+
             {/* NEW POST — Premium Printing Issues */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
