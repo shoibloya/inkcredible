@@ -21,13 +21,12 @@ export default function BlogPage() {
 
           {/* BLOG INDEX */}
           <div className="max-w-4xl mx-auto space-y-10">
-
-            {/* 1 — NEW POST (JUNE 18 2025) */}
+            {/* NEW POST — Premium Printing Troubleshooting (18 Jun 2025) */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
                 <Image
                   src="/blog-six.png"
-                  alt="Fixing premium business-card printing issues"
+                  alt="Premium business-card printing issues"
                   fill
                   className="object-cover"
                 />
@@ -38,9 +37,9 @@ export default function BlogPage() {
                 </h2>
                 <p className="text-sm text-gold mb-4">June 18, 2025</p>
                 <p className="text-gray-300 mb-6">
-                  Troubleshoot color-matching, thick card jams, textured-paper
-                  pitfalls, and specialty-finish failures—so every premium card
-                  looks flawless.
+                  Diagnose and solve color-matching glitches, thick-stock jams,
+                  textured-paper pitfalls, and specialty-finish failures—so every
+                  premium card looks flawless.
                 </p>
                 <div className="flex justify-end">
                   <a
@@ -53,24 +52,24 @@ export default function BlogPage() {
               </div>
             </div>
 
-            {/* 2 — Business-Card Designs (JUNE 11 2025) */}
+            {/* NEWER POST — Business-Card Designs (11 Jun 2025) */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
                 <Image
                   src="/blog-five.png"
-                  alt="Business card design trends Singapore 2025"
+                  alt="Business-card design trends Singapore 2025"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-8 md:p-10">
                 <h2 className="text-2xl md:text-3xl font-bold font-serif mb-4">
-                  7 Modern Business-Card Designs to Elevate Your Brand in Singapore (2025 Edition)
+                  7 Modern Business-Card Designs to Elevate Your Brand in Singapore&nbsp;(2025&nbsp;Edition)
                 </h2>
                 <p className="text-sm text-gold mb-4">June 11, 2025</p>
                 <p className="text-gray-300 mb-6">
-                  Explore textures, finishes, and layouts that help your card
-                  rise above the noise in Singapore’s competitive market.
+                  Explore trending textures, finishes, and layouts that make
+                  your card stand out in Singapore’s competitive scene.
                 </p>
                 <div className="flex justify-end">
                   <a
@@ -83,7 +82,7 @@ export default function BlogPage() {
               </div>
             </div>
 
-            {/* 3 — High-Quality Print Materials (MAY 31 2025) */}
+            {/* EXISTING POST — High-Quality Print Materials (31 May 2025) */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
                 <Image
@@ -99,7 +98,7 @@ export default function BlogPage() {
                 </h2>
                 <p className="text-sm text-gold mb-4">May 31, 2025</p>
                 <p className="text-gray-300 mb-6">
-                  In Singapore’s hyperconnected landscape—where digital ads
+                  In Singapore’s hyper-connected landscape—where digital ads
                   dominate—premium print remains a silent powerhouse.
                 </p>
                 <div className="flex justify-end">
@@ -113,12 +112,12 @@ export default function BlogPage() {
               </div>
             </div>
 
-            {/* 4 — QR Code Integration (MAY 31 2025) */}
+            {/* EXISTING POST — QR Integration (31 May 2025) */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
                 <Image
                   src="/blog-four.png"
-                  alt="QR code business card integration"
+                  alt="QR code business-card integration"
                   fill
                   className="object-cover"
                 />
@@ -129,8 +128,8 @@ export default function BlogPage() {
                 </h2>
                 <p className="text-sm text-gold mb-4">May 31, 2025</p>
                 <p className="text-gray-300 mb-6">
-                  Premium QR business cards merge tactile elegance with smart
-                  digital functionality for next-level networking.
+                  Premium QR cards merge tactile elegance with smart digital
+                  functionality for next-level networking.
                 </p>
                 <div className="flex justify-end">
                   <a
@@ -143,12 +142,12 @@ export default function BlogPage() {
               </div>
             </div>
 
-            {/* 5 — Business-Card Essentials (MAY 15 2023) */}
+            {/* EXISTING POST — Business-Card Essentials (15 May 2023) */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
                 <Image
                   src="/blog-two.png"
-                  alt="Business card essentials 2025"
+                  alt="Business-card essentials 2025"
                   fill
                   className="object-cover"
                 />
@@ -173,12 +172,12 @@ export default function BlogPage() {
               </div>
             </div>
 
-            {/* 6 — Paper Types (APR 21 2023) */}
+            {/* EXISTING POST — Paper Types (21 Apr 2023) */}
             <div className="bg-background/50 backdrop-blur-sm border border-gold/10 rounded-lg overflow-hidden shadow-lg">
               <div className="relative w-full h-64 md:h-80">
                 <Image
                   src="/blog-one.png"
-                  alt="Business card paper types"
+                  alt="Business-card paper types guide"
                   fill
                   className="object-cover"
                 />
@@ -189,8 +188,8 @@ export default function BlogPage() {
                 </h2>
                 <p className="text-sm text-gold mb-4">April 21, 2023</p>
                 <p className="text-gray-300 mb-6">
-                  Choosing the perfect stock for your business card can make or
-                  break first impressions in Singapore’s competitive scene.
+                  Choosing the perfect stock can make or break first impressions
+                  in Singapore’s competitive scene.
                 </p>
                 <div className="flex justify-end">
                   <a
@@ -202,7 +201,6 @@ export default function BlogPage() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </main>
