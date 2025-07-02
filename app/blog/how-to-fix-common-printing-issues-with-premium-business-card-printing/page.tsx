@@ -63,8 +63,8 @@ export default function PremiumBusinessCardPrintingPage() {
                   Why Quality Problems with Premium Materials Are a Bigger Deal Than Ever
                 </h2>
                 <p className="mb-4">
-                  Business networking looks very different these days, 86% of customers now say that thicker business
-                  cards make someone seem more professional. The move toward premium materials really shows just how
+                  Business networking looks very different these days, <b>86% of customers now say that thicker business
+                  cards make someone seem more professional</b>. The move toward premium materials really shows just how
                   much first impressions matter in today’s market. Almost four out of ten people say they’ll walk away
                   from a deal if someone hands them a business card that looks flimsy or low-quality, which makes
                   getting quality control right for premium cards more important than ever.
@@ -89,7 +89,7 @@ export default function PremiumBusinessCardPrintingPage() {
 
                 <h3 className="text-2xl mt-10 mb-4">Problems You’ll Face with Heavyweight Cardstock</h3>
                 <p className="mb-4">
-                  Most premium business cards are printed on cardstock that falls between 250 and 400&nbsp;GSM, a far
+                  Most premium business cards are printed on cardstock that falls between <b>250 and 400&nbsp;GSM</b>, a far
                   cry from the much lighter 80-100&nbsp;GSM paper you’ll find with standard cards. Most laser printers
                   can’t handle paper heavier than 220&nbsp;GSM, which means you’ll run into problems right away if you
                   try to use thicker stock. Try to run thick, heavy cardstock through a printer that isn’t built for it,
@@ -165,7 +165,7 @@ export default function PremiumBusinessCardPrintingPage() {
                   If you want your premium materials to print perfectly, it all starts with careful prep work before you
                   even hit “print.” Begin by double-checking that every design file matches the exact specs for the
                   materials and printing techniques you’ve picked out. That means you’ll want to double-check that
-                  you’ve got enough bleed, usually about&nbsp;0.125&nbsp;inches or&nbsp;3&nbsp;mm for business cards,
+                  you’ve got enough bleed, usually about&nbsp;<b>0.125&nbsp;inches or&nbsp;3&nbsp;mm for business cards</b>,
                   make sure every bit of text stays safely inside the margins, and switch all your colors from RGB to
                   CMYK before sending your files off to print.
                 </p>
@@ -253,7 +253,7 @@ export default function PremiumBusinessCardPrintingPage() {
                   the printed colors can end up looking flat or off—especially on premium materials, where getting the
                   colors just right really matters. Make sure you’re working in CMYK from the start or at least convert
                   your files before sending them off. And if you want your blacks to look truly deep and rich, use the
-                  values C60&nbsp;M40&nbsp;Y40&nbsp;K100.
+                  values <b>C60&nbsp;M40&nbsp;Y40&nbsp;K100</b>.
                 </p>
 
                 <h3 className="text-2xl mt-10 mb-4">Where People Go Wrong When Choosing Materials</h3>
@@ -335,8 +335,11 @@ export default function PremiumBusinessCardPrintingPage() {
                 <h2 className="text-3xl mt-12 mb-6">
                   Your Go-To Checklist for Flawless Premium Business Card Quality
                 </h2>
-
-                <h3 className="text-2xl mt-10 mb-4">Double-Check Everything Before You</h3>
+                <p className="mb-4">
+                  Want your premium business cards to look flawless every time? Here’s a handy checklist to help you sidestep 
+                  common pitfalls and get polished, professional results every time:
+                </p>
+                <h3 className="text-2xl mt-10 mb-4">Double-Check Everything Before:</h3>
                 <ul className="list-disc pl-6 mb-6 space-y-2">
                   <li>Make sure your chosen cardstock’s weight (GSM) actually works with your printer.</li>
                   <li>Double-check that you’ve allowed enough bleed to account for the wider cuts needed with thick cardstock.</li>
@@ -369,14 +372,15 @@ export default function PremiumBusinessCardPrintingPage() {
                   quirks of these materials and put solid quality control steps in place every step of the way.
                 </p>
                 <p className="mb-4">
-                  At Inkcredible Solution, we know the ins and outs of premium business card production. Our team blends
+                  At <a href="https://www.inkcredible-solutions.com/" className="inline-flex items-center text-gold hover:underline mb-8 block"><b>Inkcredible Solution</b></a>, 
+                  we know the ins and outs of premium business card production. Our team blends
                   hands-on experience in luxury printing with top-notch quality control, so your cards always make the
                   right impression. We take a thorough, hands-on approach so your investment in premium materials pays
                   off with the polished, professional results your brand truly deserves.
                 </p>
                 <p className="mb-8">
-                  Tired of dealing with quality problems on your premium business card orders? Get in touch with
-                  Inkcredible Solution today, and let’s talk about what you need. Our team of premium printing experts
+                  Tired of dealing with quality problems on your premium business card orders? <a href="https://www.inkcredible-solutions.com/" className="inline-flex items-center text-gold hover:underline mb-8 block"><b>Get in touch with
+                  Inkcredible Solution today</b></a>, and let’s talk about what you need. Our team of premium printing experts
                   is here to make sure your business cards look sharp, polished, and memorable every single time.
                 </p>
               </div>
